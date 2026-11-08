@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "nopearlmomentum",
+  "version": "${version}",
+  "name": "No Pearl Momentum",
+  "description": "Disables player velocity inheritance on thrown Ender Pearls. Pearl speed and trajectory depend only on look direction, matching Minemen-style 'disabled' pearl momentum.",
+  "authors": ["NoPearlMomentum"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.nopearlmomentum.NoPearlMomentumMod"]
+  },
+  "mixins": [
+    "nopearlmomentum.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
